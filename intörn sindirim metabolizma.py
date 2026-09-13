@@ -79,7 +79,7 @@ CASES = {
             "RASYON_YEM": {
                 "name": "Rasyon & Yemleme Öyküsü",
                 "keywords": ["rasyon", "yem", "besle", "ne yiyor", "karbonhidrat", "misir", "arpa", "ot", "mera", "silaj", "balya", "saman", "kaba", "yogun", "kesif", "kirma", "kg", "miktar"],
-                "content": "Doğum sonrası süt verimindeki hızlı artış üzerine rasyondaki yoğun yem (arpa/mısır kırması) miktarı aniden artırılmıştır. Günlük verilen yem miktarları: 14 kg mısır silajı, 3 kg buğday samanı ve 12 kg yoğun süt yemi (arpa/mısır kırması)."
+                "content": "Günlük verilen yem miktarları: 14 kg mısır silajı, 3 kg buğday samanı ve 12 kg yoğun süt yemi (arpa/mısır kırması)."
             },
             "LOKASYON_RAKIM": {
                 "name": "Lokasyon & Coğrafi Öykü",
@@ -630,7 +630,7 @@ else:
     
     with col_input:
         user_query = st.text_input(
-            "Sorunuzu Buraya Yazınız (Örn: Rasyon bilgisi?, Ahır şartları?, Rumen pH'sı?, Ping var mı?):",
+            "Sorunuzu Buraya Yazınız (Örn: Rasyon bilgisi?, Ahır şartları?):",
             key="query_input"
         )
         
